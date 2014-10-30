@@ -7,7 +7,7 @@ describe 'Visiting the homepage', ->
 
 	beforeEach ->
 	browser = new Browser({site: 'http://localhost:4000' })
-	browser.visit 'http://localhost:4000/', ->
+	browser.visit 'http://localhost:4000/'
 	
 
 	it 'should have a heading with the simple question', (done) ->
