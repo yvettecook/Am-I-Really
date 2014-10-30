@@ -11,10 +11,13 @@ describe 'Visiting the homepage', ->
 	
 
 	it 'should have a heading with the simple question', (done) ->
-		expect(browser.text('h1')).to.equal('Am I Really a Fucking Feminist?')
+		expect(browser.text('h1')).to.equal 'Am I Really a Fucking Feminist?'
 		done()
 
 	it 'should have a simple statement', (done) ->
-		expect(browser.text('h2')).to.equal('I believe in the complete equality of men and women.')
+		expect(browser.text('h2')).to.equal 'I believe in the complete equality of men and women.' 
 		done()
 
+	it 'should have a yes button', (done) ->
+		expect(browser.text('#yes')).to.eq "Yes"
+		done()
