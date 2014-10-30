@@ -4,7 +4,7 @@
   "description": "A simple question with a simple answer",
   "main": "app.coffee",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",
