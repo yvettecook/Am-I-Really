@@ -12,6 +12,7 @@ Nothing fancy, nothing whizzy, just a straight-forward question with a straight-
 ### Tools:
 
 * NodeJS
+* CoffeeScript
 * Express
 * Mocha
 * Chai

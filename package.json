@@ -1,0 +1,28 @@
+{
+  "name": "AmIReally",
+  "version": "1.0.0",
+  "description": "A simple question with a simple answer",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvettecook/CoffeeExpress.git"
+  },
+  "author": "yvettecook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvettecook/CoffeeExpress/issues"
+  },
+  "homepage": "https://github.com/yvettecook/CoffeeExpress",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "express": "^4.10.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
+  }
+}
