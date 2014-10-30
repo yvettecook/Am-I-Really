@@ -18,6 +18,7 @@
   "homepage": "https://github.com/yvettecook/CoffeeExpress",
   "dependencies": {
     "coffee-script": "^1.8.0",
+    "ejs": "^1.0.0",
     "express": "^4.10.1"
   },
   "devDependencies": {
