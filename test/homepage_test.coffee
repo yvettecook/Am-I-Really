@@ -19,5 +19,9 @@ describe 'Visiting the homepage', ->
 		done()
 
 	it 'should have a yes button', (done) ->
-		expect(browser.text('#yes')).to.eq "Yes"
+		expect(browser.text('#yes')).to.eq 'Yes'
+		done()
+
+	it 'should have a no button', (done) ->
+		expect(browser.text('#no')).to.eq 'No'
 		done()
